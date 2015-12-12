@@ -1,0 +1,49 @@
+.block{
+  width:170px;
+  margin-left:30%;
+  margin-top:80%;
+}
+.walk{
+  -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+html{
+    
+    background-image:url("http://giant.gfycat.com/AdolescentSaltyKoala.gif");
+    background-repeat: no-repeat;
+    background-size:100%;
+   
+    
+}
+div {
+    position:fixed;
+    margin-top:-15px;
+    height:730px;
+    width:730px;
+    background-repeat: no-repeat;
+    margin-left:20%;
+    background-size:100%;
+    border-radius: 3px;
+}
+#circle {
+  position: relative;
+  border-radius:50%;
+  z-index:10;
+  width: 150px;
+  height: 150px;
+  font-size:20px;
+  line-height:100px;
+  text-align:center;
+  background: #00000;
+    }
+#title{
+    color: white;
+    background: #282828;
+    
+    text-align: center;
+    font-family: fantasy;
+}
